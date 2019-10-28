@@ -9,9 +9,11 @@
         </ul>
       </p>
     </div>
+
     <div class="view">
       <router-view></router-view>
     </div>
+
   </div>
 </template>
 <script>
@@ -24,9 +26,8 @@ export default {
 #app{
   display: flex;
   flex-direction: column;
-}
-.app{
-  overflow: auto
+  height: 100%;
+  width: 100%
 }
 .view{
   flex: 1;

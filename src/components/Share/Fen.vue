@@ -30,11 +30,12 @@ export default {
 
 <style>
 .fen-ul{
-    display: flex;
+   display: flex;
     flex-wrap: wrap;
+   
 }
 .fen-ul li{
-    margin-left: 15px 
+    margin-left: 15px;
 }
 .img{
     width: 160px;

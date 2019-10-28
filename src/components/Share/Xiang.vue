@@ -1,6 +1,6 @@
 <template>
   <div>
-   <img :src="`/img/${list.img}`" alt="">
+   <img :src="`/img/${list.img}`" alt="" class="img10">
    <p>{{list.title}}</p>
   </div>
 </template>
@@ -27,5 +27,8 @@ export default {
 </script>
 
 <style>
-
+.img10{
+  width: 100%;
+  height: 210px;
+}
 </style>
